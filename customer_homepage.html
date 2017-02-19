@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Pending Meals - Profile</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              
+              <a class="navbar-brand" href="#">
+                <a href="#" class="navbar-brand">PendingMeals</a>
+              </a>
+            </div> <!-- /navbar-header -->
+              
+              <ul class="nav navbar-nav">
+                <li><a href="#" class="active">Profile</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+              
+              <button type="button" class="btn btn-default navbar-btn navbar-right">Logout</button>
+          </div> <!-- /container-fluid -->
+      </nav>
+      
+      <div class="container main-container img-rounded">
+        <div class="row vertical-center text-center profile-div img-rounded">
+            <div class="circle-avatar-img-large" style="background-image:url(images/joshua_graham.jpg)"></div>
+            
+            <!--<img src="images/joshua_graham.jpg" class="img-responsive img-circle col-sm-3" alt="Profile picture">-->
+            <h1 class="col-sm-3"> Hungry P. Man</h1>
+            
+        </div>
+          
+        <!-- PAYMENT OPTIONS TABLE -->
+          
+            <div class="panel panel-default">
+          <!-- Default panel contents -->
+          <div class="panel-heading">
+              <h1 class="panel-title">Payment Options</h1>
+          </div>
+
+          <!-- Table -->
+          <table class="table">
+                <thead>
+                    <th>Company</th>
+                    <th>Account Number</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PayPal</td>
+                        <td>01231211231</td>                    
+                    </tr>
+                    <tr>
+                        <td>PayMaya</td>
+                        <td>01231211231</td>                    
+                    </tr>
+                    <tr>
+                        <td>Dragonpay</td>
+                        <td>01231211231</td>                    
+                    </tr>                
+                </tbody>
+            </table>
+        </div>
+        
+          <!-- END PAYMENT OPTIONS -->
+        
+        <!-- TRANSACTION HISTORY -->
+        <div class="panel panel-default">
+          <!-- Default panel contents -->
+          <div class="panel-heading">
+              <h1 class="panel-title">Transaction History</h1>
+          </div>
+
+          <!-- Table -->
+          <div class="table-div">
+          <table class="table table-responsive">
+                <thead>
+                    <th>Restaurant</th>
+                    <th>Order</th>
+                    <th>Cost</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shakey's</td>
+                        <td>Pizza</td> 
+                        <td>Php 5000.00</td>
+                        <td>Feb 14, 2017</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Kenny Roger's</td>
+                        <td>Chicken</td> 
+                        <td>Php 265.00</td>
+                        <td>Feb 9, 2017</td>
+                        <td>Complete</td>
+                    </tr>
+                    <tr>
+                        <td>Max's</td>
+                        <td>Chicken</td>  
+                        <td>Php 765.00</td>
+                        <td>Jan 27, 2017</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Max's</td>
+                        <td>Chicken</td>  
+                        <td>Php 765.00</td>
+                        <td>Jan 27, 2017</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Max's</td>
+                        <td>Chicken</td>  
+                        <td>Php 765.00</td>
+                        <td>Jan 27, 2017</td>
+                        <td>Pending</td>
+                    </tr>
+                    
+                </tbody>
+              </div>
+            </table>
+        </div>
+        <!-- END TRANSACTION HISTORY -->
+      
+      </div> <!-- /main container -->
+      <div class="row text-center nega-top">
+          <h3 class="col-sm-6">Pending orders: #</h3>   
+          <h3 class="col-sm-6">Completed orders: #</h3>
+      </div>
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

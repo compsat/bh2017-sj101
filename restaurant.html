@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Welcome, Restaurant</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+  <!-- HEADER 
+=================================-->
+
+<div class="jumbotron text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-12 col-sm-12">
+          <h1>Le goodies</h1>
+          <p>"special tagline" </p>
+		 <?php
+		  print("Hello World");
+          ?>
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- /header container-->
+	<div class = "container"> 
+	
+	
+	<!--START GRID ROW --> 
+	<div class = "row"> 
+	<div class="col-md-3">
+		<h1>Pending Meals</h1>
+		<h4>(latin muna food name kasi deliks)</h4>
+	</div>
+	<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+	<div class="col-md-3"><p>Number of pending orders: 5</p></div>
+	</div>
+	<!-- END OF GRID ROW --> 
+	
+	<!-- LIST START PENDING ORDERS LIST --> 
+	<ul class="list-group">
+	  <li class="list-group-item active">Cras justo odio</li>
+	  <li class="list-group-item">Dapibus ac facilisis in</li>
+	  <li class="list-group-item">Morbi leo risus</li>
+	  <li class="list-group-item">Porta ac consectetur ac</li>
+	  <li class="list-group-item">Vestibulum at eros</li>
+	</ul>
+	<!-- END OF PENDING ORDERS LIST --> 
+	
+	<!-- START GRID ROW --> 
+	<div class="row">
+	<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+    <div class="col-md-3"><div class="well text-center">
+	
+		<!-- ADD PENDING ORDER BUTTON --> 
+		<button type="button" class="btn btn-primary center">Add Pending Order	</button></div></div>
+		
+	</div>
+	<!-- END GRID ROW --> 
+	
+	</div>
+	
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
