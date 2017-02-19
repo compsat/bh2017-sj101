@@ -1,5 +1,5 @@
 <?php
 
-$link= mysqli_connect("localhost", "root", "DLSU!", "pendingmeal");
+$link= mysqli_connect("localhost", "admin", "admin", "pendingmeal");
 
 ?>
