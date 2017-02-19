@@ -37,7 +37,7 @@
         <div style = "width=100%; padding-top:200px;"></div>
         <div>
       <center>
-        <h2 class="form-signin-heading">Pending Meal</h2>
+        <h2 class="form-signin-heading">Sign in</h2>
                 <?php  
                   if (isset($_GET["loginFailed"])) 
                     echo 'Invalid username or password<br>'; 
